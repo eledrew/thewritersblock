@@ -1,0 +1,158 @@
+html{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  background-color: #F7E6D3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+  margin-top: 3rem;
+}
+#logo img{
+  height: 14rem;
+  width: 14rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section{
+  padding-bottom: 10rem;
+  width:100vw;
+  margin: auto 0;
+}
+
+.searchForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+#searchBox{
+  width: 15rem;
+  border-radius: 7px;
+}
+
+input:nth-child(1) {
+  background-color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  width: 15rem;
+}
+
+input:nth-child(2) {
+  background-color: #D2D6C7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+  /* margin-right: .5rem; */
+
+}
+
+input:nth-child(3) {
+  background-color: #AAAF99;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+
+img{
+  height: 5rem;
+}
+
+.navbar {
+  background-color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.navbar a{
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+#defid h1{
+  border-bottom: 3pt solid #C3846B;
+}
+
+
+#synid h1{
+  border-bottom: 3pt solid #AAAF99;
+}
+
+
+#exid h1{
+  border-bottom: 3pt solid #9C8170;
+}
+
+.searchResult{
+  width: 75vw;
+  margin: auto;
+}
+
+#wordid p{
+  font-size: 24pt;
+
+}
+
+@media screen and (max-width: 684px){
+  #logo img{
+    height: 39vw;
+    width: 39vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .3rem;
+  }
+
+  h1{
+    font-size: 14pt;
+  }
+  img{
+    height: 3rem;
+  }
+  .navbar{
+    height: 5rem;
+  }
+
+  .searchForm{
+    display: block;
+    width: 80vw;
+    margin: auto;
+  }
+
+  #searchBox{
+    width: 80vw;
+    margin: auto;
+  }
+
+  input{
+    margin: .4rem .4rem .4rem 3rem ;
+  }
+}
+
+@media screen and (min-width: 281px){
+  input{
+    margin: .4rem .4rem .4rem 2rem ;
+  }
+}
+
+
+@media screen and (max-width: 281px){
+  input{
+    margin: .4rem .4rem .4rem 1rem ;
+  }
+}

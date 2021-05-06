@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+  <head>
+    <meta charset="utf-8"/>
+    <link href="../css/word.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="header">
+      <div id="logo">
+        <a href="../index.html">
+          <img src="../images/CSC581LOGO.png" alt="Writers' Block Logo">
+        </a>
+      </div>
+      <div id="root"></div>
+
+
+      <section>
+        <form class="searchForm">
+          <input type="search" name="searchBox" id="searchBox" placeholder="search for word">
+          <input type="button" name="submit" value="submit" onclick="wordSearch()">
+          <input type="reset" value="reset" onclick="reloadPage()">
+        </form>
+
+        <div class="searchResult" id="searchResult">
+          <div id="wordid">
+            <p id="word"></p>
+          </div>
+          <div id="defid">
+            <h1>definition</h1>
+            <p id="definition"></p>
+          </div>
+          <div id="synid">
+            <h1>synonyms</h1>
+            <p id="synonym"></p>
+          </div>
+          <div id="exid">
+            <h1>example</h1>
+            <p id="example"></p>
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <div class="navbar">
+        <a href="writingprompts.html">
+          <img src="../images/lightbulb.svg" alt="explore">
+        </a>
+        <a href="mainword.html">
+          <img src="../images/search.svg" alt="search">
+        </a>
+        <a href="writingpage.html">
+          <img src="../images/write.svg" alt="write">
+        </a>
+      </div>
+
+      <script src="../js/word.js">
+
+      </script>
+
+  </body>
+
+</html>

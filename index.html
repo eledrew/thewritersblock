@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="App that provides the current UV index of the given zip code.">
+		<title>The Writers' Block</title>
+		<link rel="manifest" href="manifest.json">
+		<link rel="preload">
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="images/Block-icon-152.png">
+		<meta name ="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="white"/>
+		<meta name="apple-mobile-web-app-capable" content="yes" >
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" >
+    <meta name="apple-mobile-web-app-title" content="The Writers' Block">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/block-icon-144.png">
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="fullscreen" onload="regSW();">
+    <script src="js/main.js"></script>
+    <div class="header">
+      <div id="logo">
+        <img src="images/CSC581LOGO.png" alt="Writers' Block Logo">
+      </div>
+
+    <div id="root"></div>
+
+    <div class="options">
+      <div class="choice" id="promptpage">
+        <a href="pages/writingprompts.html">
+          <img src="images/lightbulb.svg" alt="explore">
+          <p>explore writing prompts</p>
+        </a>
+      </div>
+
+      <div class="choice" id="wordpage">
+        <a href="pages/mainword.html">
+          <img src="images/search.svg" alt="search">
+          <p>search words</p>
+        </a>
+      </div>
+
+
+      <div class="choice" id="writepage">
+        <a href="pages/writingpage.html">
+          <img src="images/write.svg" alt="write">
+          <p>write</p>
+        </a>
+      </div>
+    </div>
+
+
+    </div>
+
+  </body>
+
+</html>

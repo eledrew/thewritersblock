@@ -1,0 +1,101 @@
+html{
+  margin:0;
+  padding:0;
+
+}
+
+body{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  background-color: #F7E6D3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+  margin-top: 3rem;
+}
+#logo img{
+  height: 14rem;
+  width: 14rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  height: 5rem;
+}
+
+.navbar {
+  background-color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.navbar a{
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+
+.prompts{
+  width: 100%;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-button{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  background-color: #C3846B;
+  border-radius: 10px;
+  padding: .7rem;
+  margin-top: 2rem;
+  /* margin-left: .5vw; */
+  color:#F7E6D3;
+  width: 25vw;
+}
+
+p{
+  width: 75%;
+  margin: 0 auto;
+  font-size: 18pt;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+@media screen and (max-width: 684px) {
+  #logo img{
+    height: 39vw;
+    width: 39vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .3rem;
+  }
+  img{
+    height: 3rem;
+  }
+  .navbar{
+    height: 5rem;
+
+  }
+
+  #my-button{
+    width: 70vw;
+    font-size: 14pt;
+  }
+  p{
+    font-size: 14pt;
+  }
+}
