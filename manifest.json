@@ -38,7 +38,7 @@
 		"purpose": "any"
 	}],
 	"lang": "en-US",
-	"start_url": "https://eledrew.github.io/index.html",
+	"start_url": "/thewritersblock/index.html",
 	"display": "standalone",
 	"prefer_related_applications": false,
 	"background_color": "white",
