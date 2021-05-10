@@ -64,8 +64,12 @@ function wordSearch(){
   request3.onload = function(){
     var data3 = JSON.parse(this.response);
     if(request3.status >= 200 && request3.status < 400){
-      var syn = JSON.stringify(data3);
-      synonym.innerHTML = syn;
+      let syn = JSON.stringify(data3);
+      syn = syn.substring(40, syn.length-4);
+      let syn1 = syn.replace(/['"]+/g, ' ');
+
+      synonym.innerHTML = syn1;
+      
 
     } else{
       synonym.innerHTML = "error";
